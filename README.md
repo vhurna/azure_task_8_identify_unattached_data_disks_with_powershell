@@ -1,4 +1,4 @@
-# Indentify unattached data disks with Powershell
+# Indentify Unattached Data Disks With Powershell
 
 While you are waiting for feedback on the new cost calculations for your infra, you continue looking for other cost optimization techniques. Once you heard from your colleague to proactively check for unattached data disks: 
 
@@ -74,7 +74,7 @@ Here is how to complete tasks in this module:
 
 4. Run `scripts/generate-artifacts.ps1` to generate task artifacts. The script will update the file `artifacts.json` in this repo. 
 
-5. Run `scripts/validate-artifacts.ps1` to test yourself. If tests are failing - follow the recommendation from the test script error message to fix or re-deploy your infrastructure. When you are ready to test yourself again - **re-generate the artifacts** (step 4) and re-run tests again. 
+5. Run `scripts/validate-artifacts.ps1` to test yourself. If tests are failing — follow the recommendation from the test script error message to fix or re-deploy your infrastructure. When you are ready to test yourself again — **re-generate the artifacts** (step 4) and re-run tests again. 
 
 6. When all tests will pass - commit your changes and submit the solution for review. 
 
@@ -86,4 +86,4 @@ Pro tip: If you are stuck with any of the implementation steps, run `scripts/gen
 
 6. Make sure that changes to both `task.ps1` and `result.json` are committed to the repo, and submit the solution for review.
 
-7. When the solution is validated, delete the resource group `mate-azure-task-5`—you won't need it anymore for the next tasks. 
+7. When the solution is validated, delete the resource group `mate-azure-task-5`— you won't need it anymore for the next tasks. 
