@@ -57,6 +57,12 @@ In this task, you will need to work with the infrastructure from the previous ta
 
 4. Run artifacts generation script `scripts/generate-artifacts.ps1`
 
+5. Test yourself using the script `scripts/validate-artifacts.ps1`
+
+6. Make sure that changes to both `task.ps1` and `result.json` are committed to the repo, and submit the solution for review.
+
+7. When the solution is validated, delete the resource group `mate-azure-task-5`— you won't need it anymore for the next tasks. 
+
 ## How to complete tasks in this module 
 
 Tasks in this module are relying on 2 PowerShell scripts: 
@@ -79,11 +85,3 @@ Here is how to complete tasks in this module:
 6. When all tests will pass - commit your changes and submit the solution for review. 
 
 Pro tip: If you are stuck with any of the implementation steps, run `scripts/generate-artifacts.ps1` and `scripts/validate-artifacts.ps1`. The validation script might give you a hint on what to do.  
-
-
-
-5. Test yourself using the script `scripts/validate-artifacts.ps1`
-
-6. Make sure that changes to both `task.ps1` and `result.json` are committed to the repo, and submit the solution for review.
-
-7. When the solution is validated, delete the resource group `mate-azure-task-5`— you won't need it anymore for the next tasks. 
