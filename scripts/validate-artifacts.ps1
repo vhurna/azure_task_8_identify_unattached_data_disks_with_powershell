@@ -61,7 +61,7 @@ if ($disk) {
     throw "Unable to find Azure Disk resources in the task resource group. Please make sure the task resource group has 2 Azure Disk resources (one for OS disk and one for the deattached data disk) and try again."
 }
 
-if ($disk.properties.diskState -eq "Unattached") { 
+if ($disk.properties.diskState -ne "Attached") { 
     Write-Output "`u{2705} Checked if the data disk is unattached - OK."
 } else { 
     Write-Output `u{1F914}
